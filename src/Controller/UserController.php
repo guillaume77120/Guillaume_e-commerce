@@ -15,4 +15,13 @@ class UserController extends AbstractController
             'controller_name' => 'UserController',
         ]);
     }
+    // #[Route('/profile/{id}/checkout', name: 'app_profile_checkout')]
+    // public function cartCheckout()
+    // {
+    //     $stripe= new StripeClient($this -> getParameter('stripe_sk'));
+    //     dd($stripe);
+
+    //     return $this->render('security/profile/checkout.html.twig');
+    // }
+
 }
